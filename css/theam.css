@@ -1,0 +1,30 @@
+:root{
+    --theme-color:blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+}
+
+ul li{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: var(--theme-color);
+    height: 300px;
+    width: 500px;
+}
+p{
+    color: var(--theme-color);
+}

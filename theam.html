@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/theam.css" type="text/css">
+
+</head>
+<body>
+    
+    <div class="box">
+
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore perferendis minima magni repellat quae officiis assumenda est. Assumenda explicabo dolorum blanditiis. Dolore saepe doloribus asperiores soluta aperiam debitis cumque nesciunt. Ducimus explicabo itaque, beatae quod tempora ea cupiditate qui dignissimos temporibus dolore omnis eveniet commodi recusandae quos quo doloremque.</p>
+    <ul class="d-flex switch">
+        <li style="background-color: red;"></li>
+        <li style="background-color: blue;"></li>
+        <li style="background-color: purple;"></li>
+        <li style="background-color: green;"></li>
+        <li style="background-color: rgb(255, 0, 179);"></li>
+    </ul>
+
+
+    <!-- j-queary cdn  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".switch li").click(function(){
+                var abc= $(this).css("background-color");
+                $(":root").css("--theme-color",abc);
+            });
+        });
+    </script>
+
+</body>
+</html>

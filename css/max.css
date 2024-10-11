@@ -1,0 +1,173 @@
+/* xl */
+@media (max-width:1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* lg */
+@media (max-width:1199px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+/* md */
+@media (max-width:991px){
+    .container{
+        max-width: 720px;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+}
+
+/* sm */
+@media (max-width:767px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+/* xs */
+@media (max-width:575px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+
+
+/* website2 */
+/* xl */
+@media (max-width:1399px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+/* lg */
+@media (max-width:1199px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+/* md */
+@media (max-width:991px) {
+    .container{
+        max-width: 720px;
+    }
+    nav ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: transparent;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .toggle a{
+        display: flex;
+        color: white;
+    }
+    nav ul li a{
+        padding: 10px 0;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+}
+
+/* sm */
+@media (max-width:767px) {
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+}
+
+/* xs */
+@media (max-width:575px) {
+    .w-xs-1{
+        width: 100%;
+    }
+    .contact-img{
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+}
+
+/* xl */
+@media (max-width:1399px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+/* lg */
+@media (max-width:1199px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+/* md */
+@media (max-width:991px) {
+    .container{
+        max-width: 720px;
+    }
+    nav ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.432);
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .toggle a{
+        display: flex;
+    }
+    nav ul li a{
+        padding: 10px 0;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+}
+
+/* sm */
+@media (max-width:767px) {
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+}
+
+/* xs */
+@media (max-width:575px) {
+    .w-xs-1{
+        width: 100%;
+    }
+    .contact-img{
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+}
